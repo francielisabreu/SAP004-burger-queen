@@ -1,6 +1,7 @@
 # Burger Queen
 
-![Uploading logo-burger-queen.png…]()
+![logo-burger-queen](https://user-images.githubusercontent.com/61169584/90281151-82aff980-de42-11ea-8ac5-b63345b5abd0.png)
+
 
 ## Índice
 
