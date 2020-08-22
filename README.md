@@ -80,10 +80,11 @@ Nas próximas versões do produto pretendemos:
 * Node.js
 * Trello
 
-### Desenvolvido por
+### Desenvolvido por:
+
+[Francieli Abreu](https://github.com/francielisabreu/)
 
 [Thalita Gonçalves](https://github.com/thalitagoncalves/)
 
-[Francieli Abreu](https://github.com/francielisabreu)
 
 #### O projeto foi proposto no Bootcamp @Laboratoria.
