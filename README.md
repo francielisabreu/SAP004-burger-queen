@@ -15,7 +15,6 @@
 * [Autoria](#autoria)
 
 ***
-
 ## 1. Prefácio
 
 A aplicação Burger Queen oferece um produto digital para restaurantes. Nesta aplicação o cliente proporciona aos seus funcionários uma interface capaz de automatizar o fluxo de anotações de pedidos e envio da solicitação para a cozinha. O sistema conta com a tecnologia de privacidade na página de cada cargo, ou seja, o garçom/garçonete serão direcionados automaticamente para a página de anotação de pedidos e o cozinheiro terá acesso apenas a página de exibição das solicitações enviadas pelos funcionários do salão. 
@@ -39,3 +38,51 @@ As definições de pronto dessa história consistem no Atendente conseguir anota
 Além disso, após o envio ser feito com sucesso, os campos de inserção de nome e mesa são resetados e a página exibe um alerta informando o sucesso.
 
 #### História 3
+
+Nessa história, o objetivo principal era exibir os pedidos anotados pelo Atendente na interface do cozinheiro. 
+
+Todos os pedidos constam com um botão de finalização do pedido. Então, quando o Cozinheiro termina o preparo do pedido, ele pode clicar neste botão e o pedido não aparecerá mais na tela. Após notificar a conclusão do pedido e o mesmo ser dado como "Pronto", o cozinheiro é notificado sobre o envio do pedido através de um alerta na página.
+
+## 3. Prototipagem
+
+![PrototipoHome](/src/assets/home-burger-queen.png)
+
+#### Informações adicionais
+
+* A aplicação foi pensada para tablets;
+* A aplicação foi construída em uma Single Page Aplication;
+* Para armazenar os dados de usuário e pedidos, foi utilizado o banco de dados Firebase. Através dessa tecnologia, os dados enviados de uma interface para a outra não são perdidos após deslogar. 
+* Para ter um direcionamento da identidade visual da página, trabalhamos com protótipos.
+
+## 4. Implementações Futuras
+
+Nas próximas versões do produto pretendemos:
+
+* Trabalhar melhor a responsividade da aplicação para todos os dispositivos;
+* Criar uma tela em que o garçom posso verificar os pedidos notificados pela cozinha como prontos.
+
+
+## 5. Aprendizado
+
+* Manipulação da maior parte do layout da página com a biblioteca Material UI;
+* Uso de callbacks, consumo de Promises e uso de ES Modules - JS;
+* Manipulação da SPA por Estados através do uso de React.JS;
+* Firebase Authentication, Firestore, onSnapshot, Firebase Hosting - Firebase
+* Colaboração por Git e GitHub.
+
+## 6. Tecnologias Utilizadas
+
+* React.JS
+* Material UI
+* Firebase
+* Adobe Illustrator
+* Node.js
+* Trello
+
+### Desenvolvido por
+
+[Thalita Gonçalves](https://github.com/thalitagoncalves/)
+
+[Francieli Abreu](https://github.com/francielisabreu)
+
+#### O projeto foi proposto no Bootcamp @Laboratoria.
